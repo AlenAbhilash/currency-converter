@@ -13,6 +13,7 @@
 body {
   background-image: url(https://images.pexels.com/photos/1604141/pexels-photo-1604141.jpeg);
   font-size: 40px;
+  background-size: fill;
   font-weight: bolder;
 }
 
@@ -135,12 +136,12 @@ h5:hover {
 
   body {
     background-image: url(https://images.pexels.com/photos/18024728/pexels-photo-18024728/free-photo-of-monochrome-photo-of-skyscrapers-in-new-york-city-usa.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
-    background-size: fill;
     height: 2800px;
-    
+    width: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 40px;
-  }
-
+}
   .enteramount {
     margin: 0px;
     font-weight: bold;
