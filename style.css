@@ -1,14 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .banner {
-  background-image: url(https://images.ctfassets.net/izij9rskv5y1/6cpYMipsFEaUhKI9y1uhog/01b558e632bd5eb05e3b89ec3fad1c4c/Journey_Graphic_RHS.jpg);
+  background-image: url(https://excelbuildingservices.com/wp-content/uploads/2018/02/Commercial-Office-Buildings.jpg);
   height: 300px;
-  width: 1519px;
 }
+
+body {
+  background-image: url(https://images.pexels.com/photos/1604141/pexels-photo-1604141.jpeg);
+  font-size: 40px;
+  background-size: cover;
+  font-weight: bolder;
+}
+
 .curicon {
   width: 25px;
   height: 25px;
@@ -24,19 +31,21 @@ h5:hover {
 }
 
 .excahngeimg {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 .mainh {
   position: relative;
   color: white;
   top: 20%;
+  font-weight: bolder;
   font-size: 40px;
   text-align: center;
 }
 
 .mainh1 {
+  font-weight: bolder;
   position: relative;
   color: white;
   top: 20%;
@@ -125,16 +134,40 @@ h5:hover {
   }
 
   body {
-    background-image: url(https://images.pexels.com/photos/1604141/pexels-photo-1604141.jpeg);
+    background-image: url(https://images.pexels.com/photos/18024728/pexels-photo-18024728/free-photo-of-monochrome-photo-of-skyscrapers-in-new-york-city-usa.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
     background-size: fill;
+    height: 2800px;
+    
     font-size: 40px;
+  }
+
+  .enteramount {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #inputvalue {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  #formselect {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .charth {
+    font-size: 25px;
   }
 
   #card {
     top: 70%;
     left: 5%;
     width: 90%;
-    height: 820px;
+    height: 840px;
     position: relative;
     box-shadow: 2px 4px 6px rgb(133, 133, 133);
   }
@@ -142,7 +175,7 @@ h5:hover {
   #result {
     display: inline-block;
     position: absolute;
-    top: 90%;
+    top: 93%;
     margin-left: 10px;
     width: 120px;
     height: 40px;
@@ -170,5 +203,11 @@ h5:hover {
     margin-left: 150px;
     color: rgb(125, 124, 124);
     font-weight: bold;
+  }
+
+  #chart {
+    font-size: 40px;
+    width: 720px;
+    height: 130px;
   }
 }
