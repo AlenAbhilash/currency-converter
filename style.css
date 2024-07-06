@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.banner {
+  background-image: url(https://images.ctfassets.net/izij9rskv5y1/6cpYMipsFEaUhKI9y1uhog/01b558e632bd5eb05e3b89ec3fad1c4c/Journey_Graphic_RHS.jpg);
+  height: 300px;
+  width: 1519px;
+}
+.curicon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+h5 {
+  cursor: pointer;
+}
+
+h5:hover {
+  color: blue;
+}
+
+.excahngeimg {
+  width: 50px;
+  height: 50px;
+}
+
+.mainh {
+  position: relative;
+  color: white;
+  top: 20%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mainh1 {
+  position: relative;
+  color: white;
+  top: 20%;
+  font-size: 30px;
+  text-align: center;
+}
+
+#card {
+  top: 30%;
+  left: 10%;
+  width: 85%;
+  height: 740px;
+  position: relative;
+  box-shadow: 2px 4px 6px rgb(133, 133, 133);
+}
+
+.dropdown {
+  display: flex;
+  width: 500px;
+  gap: 3%;
+}
+
+.heading {
+  justify-content: center;
+  display: flex;
+  gap: 50%;
+}
+
+.amount {
+  margin-top: 20px;
+  margin-left: 150px;
+  display: flex;
+  gap: 10px;
+}
+
+.enteramount {
+  margin: 0px;
+  font-weight: bold;
+}
+
+#inputvalue {
+  width: 300px;
+  height: 50px;
+}
+
+#formselect {
+  width: 300px;
+  height: 50px;
+}
+
+.msg {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 150px;
+  color: rgb(125, 124, 124);
+  font-weight: bold;
+}
+
+.waring {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+#result {
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  margin-left: 600px;
+  width: 120px;
+  height: 40px;
+}
+
+#chart {
+  width: 500px;
+  height: 100px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .banner {
+    background-image: url(https://png.pngtree.com/background/20230412/original/pngtree-modern-high-rise-building-background-picture-image_2399419.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 1300px;
+  }
+
+  body {
+    background-image: url(https://images.pexels.com/photos/1604141/pexels-photo-1604141.jpeg);
+    background-size: fill;
+    font-size: 40px;
+  }
+
+  #card {
+    top: 70%;
+    left: 5%;
+    width: 90%;
+    height: 820px;
+    position: relative;
+    box-shadow: 2px 4px 6px rgb(133, 133, 133);
+  }
+
+  #result {
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    margin-left: 10px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .mainh {
+    position: relative;
+    color: white;
+    top: 50%;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .mainh1 {
+    position: relative;
+    color: white;
+    top: 52%;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .msg {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 150px;
+    color: rgb(125, 124, 124);
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+    <!-- MDB -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <h2 class="mainh"> <img src="https://i.postimg.cc/pV5p0sVy/exchange.png" alt="" class="excahngeimg">Currency
+            Converter</h2>
+        <h5 class="mainh1">Check live foreign currency exchange rates</h5>
+        <div class="card " id="card">
+            <div class="card-body">
+                <div class="heading">
+                    <h5 class="card-title"><img src="https://i.postimg.cc/XvTNVVsd/exchange-1.png" alt=""
+                            class="curicon">Converter</h5>
+                    <h5 class="card-title"><img src="https://i.postimg.cc/5tfTLDjT/line-chart.png" alt=""
+                            class="curicon">Chart</h5>
+                </div>
+                <div class="amount">
+                    <div class="amountdiv">
+                        <p class="enteramount">Enter Amount</p>
+                        <input value="1" type="text" class="form-control" id="inputvalue" />
+                    </div>
+                    <div class="dropdown">
+                        <div class="from">
+                            <p class="enteramount">From</p>
+                            <select name="from" class="form-select" aria-label="Default select example" id="formselect">
+                            </select>
+                            <img src="https://flagsapi.com/US/flat/64.png" />
+                        </div>
+                        <div class="to">
+                            <p class="enteramount">To</p>
+                            <select name="to" class="form-select" aria-label="Default select example" id="formselect">
+                            </select>
+                            <img src="https://flagsapi.com/IN/flat/64.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="msg"></div>
+                <div class="waring">
+                    <strong class="charth"></strong>
+                    <hr>
+                    <div id="chart"></div>
+                    <button type="button" class="btn btn-primary" data-mdb-ripple-init id="result">Convert</button>
+                </div>
+            </div>
+            <br><br<br><br>
+            <script src="code.js"></script>
+            <script src="script.js"></script>
+            <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
+
+</body>
+
+</html>
